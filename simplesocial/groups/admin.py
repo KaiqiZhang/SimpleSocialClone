@@ -3,6 +3,6 @@ from . import models
 
 # Register your models here.
 class GroupMemberInline(admin.TabularInline):
-    model = model.GroupMember
-    
+    model = models.GroupMember
+
 admin.site.register(models.Group)
